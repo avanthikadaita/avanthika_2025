@@ -25,7 +25,7 @@ Avanthika Daita's journey starts here.
 </head>
 <body>
     <button id="showGifBtn">CLICK HERE!</button>
-    <img id="gifImage" src="https://i.pinimg.com/originals/6a/e1/4f/6ae14fccd417c380c9c60f8fb2bc6ed7.gif" alt="GIF Image" width="200">
+    <img id="gifImage" src="https://www.icegif.com/wp-content/uploads/2023/08/icegif-827.gif" alt="GIF Image" width="200">
 
     <script>
         document.getElementById("showGifBtn").addEventListener("click", function() {
