@@ -11,6 +11,7 @@ comments: True
 ---
 
 
+
 | Assignment            | Link                   |
 |-----------------------|------------------------|
 | Tools/Equipment       | [Shell Script](https://avanthikadaita.github.io/avanthika_2025/devops/tools/verify)       |
