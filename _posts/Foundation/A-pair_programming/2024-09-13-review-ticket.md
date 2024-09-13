@@ -2,11 +2,7 @@
 layout: post
 title: Review Ticket
 description: Sprint 1 Review Ticket
-categories: ['Collaboration']
-courses: {'csse': {'week': 1}, 'csp': {'week': 1}, 'csa': {'week': 1}}
-menu: nav/pair_programming.html
 permalink: /pair/habits
-type: collab
 comments: True
 ---
 
