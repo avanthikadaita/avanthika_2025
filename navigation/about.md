@@ -1,17 +1,10 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Creator of Student 2025
-
-
-## Who I Am
-
-Hi! My name is Avanthika Daita.  
-I’m in 11th grade and am taking AP Computer Science A. Last year, I took AP Computer Science Principles.
-
+Hey! I’m Avanthika Daita, an 11th grader diving deep into AP Computer Science A this year. Coding's been a big part of my life, and I’ve loved exploring creative projects like games, websites, and more.
 
 <div id="game">
     <div id="flag-grid">
@@ -28,12 +21,12 @@ I’m in 11th grade and am taking AP Computer Science A. Last year, I took AP Co
 #game {
     text-align: center;
     margin: 20px;
-    color: #fff; /* Ensures readability on black background as discussed in the GitHub Pages article */
+    color: #fff; /* Ensures readability on black background */
 }
 
 #flag-grid {
     display: grid;
-    grid-template-columns: repeat(4, 100px); /* Defines a grid layout for the flags */
+    grid-template-columns: repeat(4, 100px); /* Grid layout for flags */
     gap: 10px;
     justify-content: center;
     margin-bottom: 20px;
@@ -42,10 +35,10 @@ I’m in 11th grade and am taking AP Computer Science A. Last year, I took AP Co
 .flag {
     width: 100px;
     height: 60px;
-    border: 2px solid #ddd; /* Provides visibility of flags, as detailed in the article’s styling section */
+    border: 2px solid #ddd;
     background-size: cover;
     background-position: center;
-    background-color: #333; /* Ensures contrast for flag visibility */
+    background-color: #333; /* Contrast for flag visibility */
 }
 
 #countries {
@@ -56,7 +49,7 @@ I’m in 11th grade and am taking AP Computer Science A. Last year, I took AP Co
     display: inline-block;
     padding: 10px;
     margin: 5px;
-    background-color: #444; /* Darker background for country names, similar to grid-item styling */
+    background-color: #444;
     color: #fff; /* Text color for readability */
     cursor: pointer;
     border-radius: 5px;
@@ -64,13 +57,13 @@ I’m in 11th grade and am taking AP Computer Science A. Last year, I took AP Co
 
 #score {
     margin-top: 20px;
-    font-size: 20px; /* Font size for score display */
+    font-size: 20px;
 }
 
 #start-game {
     padding: 10px 20px;
-    background-color: #007bff; /* Button background color, consistent with modern JavaScript UI styles */
-    color: #fff; /* Button text color */
+    background-color: #007bff;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -78,7 +71,7 @@ I’m in 11th grade and am taking AP Computer Science A. Last year, I took AP Co
 }
 
 #start-game:hover {
-    background-color: #0056b3; /* Hover effect for the button, enhancing user interaction */
+    background-color: #0056b3;
 }
 </style>
 
@@ -88,7 +81,7 @@ const flags = [
     { country: 'Gambia', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_The_Gambia.svg/640px-Flag_of_The_Gambia.svg.png' },
     { country: 'Japan', src: 'https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg' },
     { country: 'India', src: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_India.png' }
-    // Additional flags and countries can be added here, as suggested in the article for dynamic content
+    // Add more flags and countries if needed
 ];
 
 let score = 0;
@@ -126,11 +119,11 @@ function startGame() {
 }
 
 function allowDrop(event) {
-    event.preventDefault(); /* Required to allow drag-and-drop functionality, as noted in modern JavaScript features */
+    event.preventDefault(); // Allow drag-and-drop functionality
 }
 
 function drag(event) {
-    event.dataTransfer.setData("text", event.target.textContent); /* Sets the data for drag operation */
+    event.dataTransfer.setData("text", event.target.textContent); // Set the drag data
 }
 
 function drop(event) {
@@ -139,20 +132,53 @@ function drop(event) {
     const flagCountry = event.target.getAttribute('data-country');
 
     if (country === flagCountry) {
-        event.target.style.border = '2px solid green'; /* Indicating a correct match */
+        event.target.style.border = '2px solid green'; // Correct match
         score += 10;
         document.getElementById('score').textContent = `Score: ${score}`;
     } else {
-        event.target.style.border = '2px solid red'; /* Indicating an incorrect match */
+        event.target.style.border = '2px solid red'; // Incorrect match
     }
 }
 
 // Start the game when the button is clicked
-document.getElementById('start-game').addEventListener('click', startGame); /* Event listener for the start game button, aligning with modern JavaScript practices */
+document.getElementById('start-game').addEventListener('click', startGame);
 </script>
 
 
 
+
+### Fun Facts About Me
+Check out some fun facts about me — hover over the images for a little surprise!
+
+<div class="about-section">
+    <div class="fact">
+        <div class="image-container">
+            <img src="https://www.savoryonline.com/app/uploads/recipes/234767/ice-cream-sundaes-with-two-ingredient-hard-shell.jpg" alt="Favorite Food" class="fact-image">
+        </div>
+        <p><strong>Favorite Food:</strong></p>
+    </div>
+
+ <div class="fact">
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Born Location" class="fact-image">
+        </div>
+        <p><strong>Where I Was Born:</strong></p>
+    </div>
+
+ <div class="fact">
+        <div class="image-container">
+            <img src="https://www.ramapo.edu/crw/wp-content/uploads/sites/23/2012/07/books.jpg" alt="Favorite Hobby" class="fact-image">
+        </div>
+        <p><strong>Hobbies:</strong></p>
+    </div>
+
+<div class="fact">
+        <div class="image-container">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSC1pmwVs3b9KW0IT4ivccOXPYRQbAH2VpOWLwSumVqwAnJ1u8G" alt="Favorite Movie" class="fact-image">
+        </div>
+        <p><strong>Favorite Movie:</strong></p>
+    </div>
+</div>
 
 ### Past CSP Projects
 
@@ -177,8 +203,71 @@ document.getElementById('start-game').addEventListener('click', startGame); /* E
 - **Backend:** Featured an SQLite backend with GET and POST requests for data handling.
 - **Technologies Used:** Python, Jupyter Notebooks, Seaborn, Pandas, Scikit-learn, SQLite, Flask (for API)
 
-**Project 4:** An Addition to the Calorie Tracker  
-*Overview:* This project extended the calorie tracking functionality through frontend/backend integration.
 
-- **Backend:** Featured an SQLite backend with GET and POST requests for data handling.
-- **Technologies Used:** Python, Jupyter Notebooks, Seaborn, Pandas, Scikit-learn, SQLite, Flask (for API)
+<style>
+/* Layout */
+.about-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.fact {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.fact p {
+    color: #fff;
+    margin-top: 15px;
+}
+
+/* Image Effects */
+.image-container {
+    width: 120px;
+    height: 120px;
+    perspective: 1000px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.fact-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.6s ease;
+    backface-visibility: hidden;
+}
+
+.fact:hover .fact-image {
+    transform: rotateY(180deg); /* Flipping effect */
+}
+
+.fact p {
+    transition: transform 0.6s ease;
+}
+
+.fact:hover p {
+    transform: translateY(-10px); /* Slide text up when hovered */
+}
+
+/* Animation for sliding effect */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.fact-image {
+    animation: slideIn 1s ease-in-out; /* Slide in effect for the image */
+}
+
+.fact:hover .fact-image {
+    animation: none; /* Stops slide animation when hovering */
+}
+</style>
