@@ -8,7 +8,6 @@ menu: nav/pair_programming.html
 permalink: /pair/habits
 type: collab
 comments: True
-sticky_rank: 1
 ---
 
 
@@ -18,4 +17,4 @@ sticky_rank: 1
 | Frontend Development   | [Frontend Development](https://avanthikadaita.github.io/avanthika_2025/devops/hacks) |
 | Github Pages Hacks     | [Github Pages Hacks](https://avanthikadaita.github.io/avanthika_2025/about/) |
 | SASS Hacks            | [Styling](https://avanthikadaita.github.io/avanthika_2025/)           |
-| Pair Programming      | [Bubble Popper]({{site.baseurl}}/BubblePopper.html)    |
+| Pair Programming      | [Bubble Popper](https://avanthikadaita.github.io/avanthika_2025/BubblePopper.html)    |
