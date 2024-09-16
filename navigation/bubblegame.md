@@ -1,7 +1,7 @@
 ---
-layout: blogs
+layout: post
 title: Bubble Popper Game
-permalink: /blogs/
+permalink: /bubble_popper/
 ---
 
 <html lang="en">
