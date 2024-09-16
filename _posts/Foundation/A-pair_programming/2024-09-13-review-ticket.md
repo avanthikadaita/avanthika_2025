@@ -14,4 +14,4 @@ comments: True
 | Frontend Development   | [Frontend Development](https://avanthikadaita.github.io/avanthika_2025/devops/hacks) |
 | Github Pages Hacks     | [Github Pages Hacks](https://avanthikadaita.github.io/avanthika_2025/about/) |
 | SASS Hacks            | [Styling](https://avanthikadaita.github.io/avanthika_2025/)           |
-| Pair Programming      | [Bubble Popper](https://avanthikadaita.github.io/avanthika_2025/BubblePopper.html)    |
+| Pair Programming      | [Bubble Popper](https://avanthikadaita.github.io/avanthika_2025/blogs/)    |
