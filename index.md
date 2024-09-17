@@ -5,7 +5,7 @@ description: Home Page
 hide: true
 ---
 
-# Avanthika Daita
+# Home Page
 
 Welcome to Avanthika's corner of the web—where creativity, tech, and passion collide.
 
